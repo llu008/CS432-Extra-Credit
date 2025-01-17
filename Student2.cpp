@@ -15,14 +15,14 @@ int main()
     ifstream inputFile;
     inputFile.open("inputFile.txt");
 
-    for(int i = 0; i < numStudents; i++) {
+    for (int i = 0; i < numStudents; i++) {
         inputFile >> name[i]
                   >> age[i]
                   >> GPA[i]
                   >> gradeLevel[i];
     }
 
-    for(int i = 0; i < numStudents; i++) {
+    for (int i = 0; i < numStudents; i++) {
         cout << name[i] << " "
              << age[i] << " "
              << GPA[i] << " "
